@@ -38,7 +38,7 @@ export const Carousel = () => {
                 });
             }
 
-            setBooks(loadedBooks);
+             setBooks(loadedBooks);
             setIsLoading(false);
         };  
         fetchBooks().catch((error: any) => {

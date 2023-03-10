@@ -10,7 +10,7 @@ export const Homepage = () => {
         <>
       
        <ExploreTopBooks />
-       <Carousel />
+       <Carousel/>
        <Heros />
        <LibraryServices />
        
