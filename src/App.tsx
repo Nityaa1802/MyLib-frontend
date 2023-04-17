@@ -31,7 +31,9 @@ function App() {
       <Security oktaAuth={oktaAuth} restoreOriginalUri={restoreOriginalUri} onAuthRequired={customAuthHandler}>
       <Navbar />
       <div className="flex-grow-1">
-        <Routes>
+          <Routes>
+            console.log(oktaAuth)
+            
           <Route path="/home" element={<Homepage />} />
           <Route path="/" element={<Homepage />} />
           <Route path="/search" element={<SearchBooksPage />} />
