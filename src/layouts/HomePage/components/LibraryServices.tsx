@@ -20,7 +20,7 @@ export const LibraryServices = () => {
                         {
                             
                             authState?.isAuthenticated ?
-                                    <Link type="button" className="btn main-color btn-lg text-white px-4 me-md-2 fw-bold" to={"/search"}>Library Services</Link>
+                                    <Link type="button" className="btn main-color btn-lg text-white px-4 me-md-2 fw-bold" to={"/message"}>Library Services</Link>
                                     :
                                     <Link className='btn main-color btn-lg text-white' to={"/login"}>Sign up</Link>
                         }
